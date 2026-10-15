@@ -1,0 +1,128 @@
+name: Bug report
+description: Something in VoiceVibe does not work as expected.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. This tracker is **public**:
+        please leave out anything private (dictated text, screenshots of
+        personal content, account emails). For account or billing help,
+        Pro and Pro Max subscribers can use their account dashboard.
+        Please search [existing issues](https://github.com/VoiceVibe-AI/voicevibe/issues) first.
+  - type: input
+    id: version
+    attributes:
+      label: VoiceVibe version
+      description: The version you are running (for example 0.9.974).
+      placeholder: "0.9.974"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - macOS
+        - Linux (.deb)
+        - Linux (AppImage)
+    validations:
+      required: true
+  - type: input
+    id: os_details
+    attributes:
+      label: OS version and hardware
+      description: "For example: Windows 11; macOS 15 on M2; Linux Mint 22, X11."
+    validations:
+      required: true
+  - type: dropdown
+    id: plan
+    attributes:
+      label: Plan
+      options:
+        - Free
+        - Pro Preview
+        - Pro
+        - Pro Max
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Mode
+      description: Which mode were you using?
+      options:
+        - Voice Typing
+        - Magic Typing
+        - Magic Clipboard
+        - Voice Assistant
+        - Text-to-Speech
+        - AI Images
+        - Note Taker
+        - Chat Launcher
+        - Agent Launcher
+        - Add to Dictionary
+        - Settings, install or update
+        - Not sure / other
+    validations:
+      required: true
+  - type: dropdown
+    id: recognition
+    attributes:
+      label: Voice Typing recognition setting (if relevant)
+      options:
+        - Not relevant
+        - Local Model
+        - Cloud
+        - Cloud with Local Fallback
+        - Not sure
+  - type: input
+    id: target_app
+    attributes:
+      label: Target app or website
+      description: Where were you speaking into or launching to? (For example Gmail in Firefox, VS Code, Claude Code.)
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Select ...
+        2. Hold the shortcut and say ...
+        3. Release ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Sometimes
+        - Once
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: |
+        Linux `~/.local/share/voicevibe/logs/`, macOS `~/Library/Logs/VoiceVibe/`,
+        Windows `%LOCALAPPDATA%\VoiceVibe\Logs\`. Paste the relevant part,
+        after removing anything private.
+      render: text
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots (without personal content), microphone type, shortcut used.

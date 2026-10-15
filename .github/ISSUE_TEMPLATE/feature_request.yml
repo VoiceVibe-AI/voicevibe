@@ -1,0 +1,56 @@
+name: Feature request
+description: Suggest an idea or an improvement for VoiceVibe.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. Please search
+        [existing issues](https://github.com/VoiceVibe-AI/voicevibe/issues)
+        first and add a 👍 to one that matches instead of opening a new one.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The task or problem, in your own words. What happens today?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: How you would like VoiceVibe to handle it.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Voice Typing
+        - Magic Typing or Magic Clipboard
+        - Voice Assistant
+        - Text-to-Speech or voices
+        - AI Images
+        - Note Taker
+        - Chat Launcher
+        - Agent Launcher
+        - Dictionary or Word Replacements
+        - Languages
+        - Platform support (Windows, macOS, Linux)
+        - Shortcuts, settings or install
+        - Other
+  - type: dropdown
+    id: os
+    attributes:
+      label: Your operating system
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - More than one
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What do you use instead today?
+      description: Other apps or workarounds, if any.

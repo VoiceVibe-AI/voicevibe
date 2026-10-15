@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Pro or Pro Max account and billing help
+    url: https://voicevibe.ai/support
+    about: Subscribers can request priority support from their account dashboard.
+  - name: Private feedback
+    url: https://voicevibe.ai/feedback
+    about: Prefer not to post publicly? Send bug reports and ideas through the feedback form.
+  - name: Security issue
+    url: https://github.com/VoiceVibe-AI/voicevibe/security/advisories/new
+    about: Please report security issues privately, never in a public issue.
+  - name: FAQ and troubleshooting
+    url: https://voicevibe.ai/faq
+    about: Shortcuts, microphones, macOS permissions, Linux X11 and more.
