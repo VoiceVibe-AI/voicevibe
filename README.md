@@ -5,7 +5,7 @@
 <h1 align="center">VoiceVibe</h1>
 
 <p align="center">
-  <b>Press a shortcut anywhere, speak, and choose where it goes.</b><br>
+  <b>Talk to your computer. It types, speaks & does what you ask.</b><br>
   Free, unlimited voice typing that runs on your device, offline. AI voice modes with Pro.<br>
   Windows · macOS · Linux (X11)
 </p>
@@ -20,11 +20,11 @@
 ---
 
 VoiceVibe is an AI voice assistant that works with any app or website on
-your computer. Press a shortcut and speak; while you speak, choose where
-it goes: type it, ask the assistant, ask about what's on your screen or
-the selected text, transform text, or hand a task to an AI chat or coding
-agent. No switching to another app first: capture the thought where you
-are.
+your computer. Press a key and say what you need. Dictate, rewrite, chat,
+generate images, hear text read aloud, launch agents. While you speak,
+choose where it goes: type it, ask the assistant, ask about what's on your
+screen or the selected text, transform text, or hand a task to an AI chat
+or coding agent. Do more without losing your train of thought.
 
 > **About this repository.** VoiceVibe's public home on GitHub: the
 > getting-started guide and the issue tracker for bugs and feature requests.
@@ -40,7 +40,7 @@ are.
 
 ## What you get
 
-**How it works:** optionally select text or files, hold your shortcut,
+**How it works:** optionally select text or files, hold your shortcut key,
 speak, pick a mode and inputs, release. Push-to-talk (hold to speak) and
 toggle (press to start, press again to stop) are both available. Each
 mode can have its own shortcut. VoiceVibe is not always listening: you
@@ -97,9 +97,12 @@ Checkout shows the final total, including any taxes. Full details:
 
 | Platform | Supported | Not supported | Download |
 |---|---|---|---|
-| Windows | Windows 10 or later, Intel/AMD x86-64 | Windows on ARM | Installer, ~72.8 MB |
-| macOS | Apple Silicon (M1 or newer), macOS 14 or later | Intel Macs | DMG, ~156.6 MB |
-| Linux | x86-64 with an X11 session; audio via PulseAudio or ALSA. Linux Mint is our initial QA target. | Wayland (including XWayland), ARM Linux | .deb ~112.5 MB, AppImage ~156.6 MB |
+| Windows | Windows 10 or later, Intel/AMD x86-64 | Windows on ARM | Installer (.exe) |
+| macOS | Apple Silicon (M1 or newer), macOS 14 or later | Intel Macs | DMG |
+| Linux | x86-64 with an X11 session; audio via PulseAudio or ALSA. Linux Mint is our initial QA target. | Wayland (including XWayland), ARM Linux | .deb or AppImage |
+
+Current versions and file sizes are on the
+[download page](https://voicevibe.ai/download?utm_source=github&utm_medium=readme).
 
 **Minimum:** 4 GB RAM, 3 GB free storage for the app plus the local
 model, and a microphone. Pro also needs an internet connection.
