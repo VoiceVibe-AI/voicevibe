@@ -5,8 +5,8 @@
 <h1 align="center">VoiceVibe</h1>
 
 <p align="center">
-  <b>Talk to your computer. It types, speaks & does what you ask.</b><br>
-  Free, unlimited voice typing that runs on your device, offline. AI voice modes with Pro.<br>
+  <b>Talk to your computer. It types, speaks & does what you say.</b><br>
+  An AI voice assistant you can use anywhere on your computer.<br>
   Windows · macOS · Linux (X11)
 </p>
 
@@ -19,12 +19,9 @@
 
 ---
 
-VoiceVibe is an AI voice assistant that works with any app or website on
-your computer. Press a key and say what you need. Dictate, rewrite, chat,
-generate images, hear text read aloud, launch agents. While you speak,
-choose where it goes: type it, ask the assistant, ask about what's on your
-screen or the selected text, transform text, or hand a task to an AI chat
-or coding agent. Do more without losing your train of thought.
+Press a key and talk to dictate, create or transform text. Hear any text
+read aloud. Chat or launch agents and ask for anything. Do more without
+losing your train of thought.
 
 > **About this repository.** VoiceVibe's public home on GitHub: the
 > getting-started guide and the issue tracker for bugs and feature requests.
@@ -40,10 +37,10 @@ or coding agent. Do more without losing your train of thought.
 
 ## What you get
 
-**How it works:** optionally select text or files, hold your shortcut key,
+**How it works:** optionally select text or files, hold a key,
 speak, pick a mode and inputs, release. Push-to-talk (hold to speak) and
 toggle (press to start, press again to stop) are both available. Each
-mode can have its own shortcut. VoiceVibe is not always listening: you
+mode can have its own key. VoiceVibe is not always listening: you
 start every recording.
 
 | Mode | What it does | Plan |
@@ -149,8 +146,9 @@ guide is at [voicevibe.ai/getting-started](https://voicevibe.ai/getting-started)
    - **Automation**: typing into other apps (first text insertion)
 
    You may need to restart VoiceVibe after granting them.
-4. Open any text field (Notes, TextEdit, a browser), **hold Right Ctrl
-   (⌃)**, say "Hello, this is a test", and release.
+4. Open any text field (Notes, TextEdit, a browser), **hold your key**
+   (Right Ctrl by default; on a MacBook keyboard, choose another key in
+   Settings first), say "Hello, this is a test", and release.
 
 </details>
 
