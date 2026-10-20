@@ -20,7 +20,7 @@
 ---
 
 Press a key and talk to dictate, create or transform text. Hear any text
-read aloud. Chat or launch agents and ask for anything. Do more without
+read aloud. Chat with AI, or hand a task to an agent. Do more without
 losing your train of thought.
 
 > **About this repository.** VoiceVibe's public home on GitHub: the
